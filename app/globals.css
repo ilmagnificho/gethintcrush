@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-haze text-ink antialiased;
+}
+
+.gradient-card {
+  background: radial-gradient(circle at top, rgba(244, 114, 182, 0.15), transparent 60%);
+}
+
+.blur-premium {
+  filter: blur(6px);
+}
